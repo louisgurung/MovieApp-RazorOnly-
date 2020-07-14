@@ -14,6 +14,7 @@ namespace MovieApp.Model
         [Required]
         public string Name { get; set; }
         public string Writer { get; set; }
+        public string IMDB { get; set; }
     }
 
 }

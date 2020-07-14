@@ -411,6 +411,10 @@ C:\Users\Louis Gurung\source\repos\MovieApp\bin\Debug\netcoreapp3.1\ru\Microsoft
 C:\Users\Louis Gurung\source\repos\MovieApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Louis Gurung\source\repos\MovieApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Louis Gurung\source\repos\MovieApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Louis Gurung\source\repos\MovieApp\obj\Debug\netcoreapp3.1\Razor\Pages\MovieList\Index.cshtml.g.cs
 C:\Users\Louis Gurung\source\repos\MovieApp\obj\Debug\netcoreapp3.1\MovieApp.csproj.CoreCompileInputs.cache
 C:\Users\Louis Gurung\source\repos\MovieApp\obj\Debug\netcoreapp3.1\MovieApp.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Louis Gurung\source\repos\MovieApp\obj\Debug\netcoreapp3.1\MovieApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Louis Gurung\source\repos\MovieApp\obj\Debug\netcoreapp3.1\Razor\Pages\MovieList\Create.cshtml.g.cs
+C:\Users\Louis Gurung\source\repos\MovieApp\obj\Debug\netcoreapp3.1\Razor\Pages\MovieList\Edit.cshtml.g.cs
+C:\Users\Louis Gurung\source\repos\MovieApp\obj\Debug\netcoreapp3.1\Razor\Pages\MovieList\Upsert.cshtml.g.cs

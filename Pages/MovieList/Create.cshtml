@@ -1,0 +1,57 @@
+﻿@page
+@model MovieApp.Pages.MovieList.CreateModel
+@{
+    ViewData["Title"] = "Create";
+}
+
+<br/>
+<h2 class="text-info">Create New Book</h2>
+<br/>
+
+<div class="border container" style="padding:30px">
+    <form method="post">
+        <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Movie.Name"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Movie.Name" class="form-control"/>
+            </div>
+            <span asp-validation-for="Movie.Name" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Movie.Writer"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Movie.Writer" class="form-control" />
+            </div>
+            <span asp-validation-for="Movie.Writer" class="text-danger"></span>
+
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Movie.IMDB"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Movie.IMDB" class="form-control" />
+            </div>
+            <span asp-validation-for="Movie.IMDB" class="text-danger"></span>
+
+        </div>
+        <div class="form-group row">
+            <div class="col-3 offset-3">
+                <input type="submit" value="Create" class="btn btn-primary form-control"/>
+            </div>
+            <div class="col-3">
+                <a asp-page="Index" class="btn btn-success form-control">Back to List</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+@*this is client side validation*@
+@section Scripts{ 
+    <partial name="_ValidationScriptsPartial"/>
+}

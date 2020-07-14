@@ -12,6 +12,6 @@ namespace MovieApp.Model
         {
         }
 
-        public DbSet<Movie> Movie { get; set; }
+        public DbSet<Movie> Movies { get; set; }       //var name just for database
     }
 }
